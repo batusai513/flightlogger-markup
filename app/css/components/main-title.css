@@ -1,0 +1,22 @@
+.main-title {
+  letter-spacing: 2px;
+  font-size: rem(19px);
+  white-space: nowrap;
+  position: relative;
+  z-index: 2;
+  span {
+    font-size: rem(36px);
+    display: block;
+  }
+  &__container {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  @media screen and (min-width: 769px){
+    font-size: rem(43px);
+    span {
+      font-size: rem(88px);
+      display: block;
+    }
+  }
+}

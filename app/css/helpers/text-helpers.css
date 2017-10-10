@@ -1,0 +1,13 @@
+.text-start,
+.text--start {
+  text-align: var(--start);
+}
+
+.text--end {
+  text-align: var(--end);
+}
+
+.text--center,
+.text-center {
+  text-align: center;
+}

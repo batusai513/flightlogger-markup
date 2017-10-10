@@ -1,0 +1,7 @@
+.pane {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  &--athens-gray {
+    background-color: var(--athens-gray);
+  }
+}

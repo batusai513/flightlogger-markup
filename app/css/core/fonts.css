@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'san francisco';
+  src: url('../../font/sanfranciscotext-light-webfont.woff2') format('woff2'),
+       url('../../font/sanfranciscotext-light-webfont.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'san francisco';
+  src: url('../../sanfranciscotext-regular-webfont.woff2') format('woff2'),
+       url('../../sanfranciscotext-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}

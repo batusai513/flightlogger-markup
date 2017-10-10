@@ -1,0 +1,10 @@
+.main-header {
+  padding-top: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  @media screen and (min-width: 769px){
+    text-align: var(--start);
+    padding-top: 40px;
+    margin-bottom: 10px;
+  }
+}

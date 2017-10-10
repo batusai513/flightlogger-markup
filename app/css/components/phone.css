@@ -1,0 +1,38 @@
+.phone {
+  background-image: url('../images/iphone.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+  width: 53.3333333333%;
+  height: 109.4801223253%;
+  @media screen and (min-width: 600px) {
+    width: 320px;
+    height: 656.880733952px;
+  }
+  &__screen {
+    position: absolute;
+    top: 12.4%;
+    left: 7.5688073394%;
+    right: 7.5688073394%;
+    bottom: 14.0782122905%;
+  }
+  &-screen {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    &--map {
+      background-image: url('../images/map.jpg');
+    }
+    &--flights {
+      background-image: url('../images/flights.jpg');
+    }
+    &--mail {
+      background-image: url('../images/mail.jpg');
+    }
+  }
+}
+
+/*
+  ratio: 895 / 436 = 2.0527522936
+ */

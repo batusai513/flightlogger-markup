@@ -1,0 +1,26 @@
+.iwatch {
+  background-image: url('../images/iwatch.png');
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 189px;
+  height: 341px;
+  &__content {
+    position: absolute;
+    top: 91px;
+    left: 28px;
+  }
+  &-screen {
+    width: 127px;
+    height: 158px;
+    &--bg1 {
+      background-image: url('../images/iwatch-bg1.jpg');
+    }
+    &--bg2 {
+      background-image: url('../images/iwatch-bg2.jpg');
+    }
+    &--bg3 {
+      background-image: url('../images/iwatch-bg3.jpg');
+    }
+  }
+}

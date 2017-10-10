@@ -1,0 +1,166 @@
+// vertical alignment helpers
+.vertical-center--inline{
+  &:before{
+    content: "";
+    display: inline-block;
+    height: 100%;
+    margin-left: -4px;
+    vertical-align: middle;
+  }
+}
+
+.vertical-align--middle {
+  vertical-align: middle;
+}
+
+.vertical-align--bottom {
+  vertical-align: bottom;
+}
+
+.vertical-align--top {
+  vertical-align: top;
+}
+
+// width helpers
+.full-width {
+  width: 100%;
+}
+
+.small--full-width {
+  @media #{$medium-max}{
+    width: 100%;
+  }
+}
+
+// Mute an object by reducing its opacity.
+//===================
+
+.muted{
+  @include opacity(0.5);
+}
+
+.color--white {
+  color: white;
+}
+
+.color--text-body {
+  color: $color-text-body;
+}
+
+.color--brand-primary {
+  color: $brand-primary;
+}
+
+.color--brand-secondary {
+  color: $brand-secondary;
+}
+
+.background-color--ui {
+  background-color: $brand-ui;
+}
+
+.background--brand-secondary {
+  background-color: $brand-secondary;
+}
+
+.background--white {
+  background-color: white;
+}
+
+.background--light {
+  background-color: #F6F7F6;
+}
+
+.overflow-x {
+  overflow-x: auto;
+}
+
+.relative{
+  position: relative;
+}
+
+.big-shadow {
+  box-shadow: 0 30px 40px rgba(black, 0.15);
+}
+
+.text--separated {
+  letter-spacing: 1.71px;
+}
+
+.border-separator {
+  &:after {
+    background-color: $brand-primary;
+    content: '';
+    display: block;
+    width: 100px;
+    height: 1px;
+    margin-bottom: $half-spacing-unit;
+    margin-top: $base-spacing-unit;
+  }
+  &--white {
+    &:after {
+      background-color: white;
+    }
+  }
+  &--centered {
+    &:after {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+.image-border {
+  position: relative;
+  &:after {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 70%;
+    width: 60%;
+    z-index: -1;
+  }
+  &--primary {
+    &:after {
+      background-color: $brand-primary;
+    }
+  }
+  &--secondary {
+    &:after {
+      background-color: $brand-secondary;
+    }
+  }
+  &--left {
+    &:after {
+      left: -10px;
+    }
+  }
+  &--right {
+    &:after {
+      right: -10px;
+    }
+  }
+  &--top-middle {
+    &:after {
+      top: 50px;
+    }
+  }
+  &--bottom {
+    &:after {
+      bottom: -10px;
+    }
+  }
+}
+
+.nav-block--medium {
+  .nav-block__item {
+    display: block;
+    padding-right: $half-spacing-unit;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-align: center;
+    @media #{$medium} {
+      display: inline-block;
+    }
+  }
+}

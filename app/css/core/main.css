@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  &:before,
+  &:after {
+    box-sizing: border-box;
+  }
+}
+
+html {
+  font-size: var(--font-size-base);
+  tap-highlight-color: rgba(0,0,0,0);
+  font-smoothing: antialiased;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-size: 100%;
+  font-family: var(--font-family-base);
+  font-weight: var(--font-weight-base);
+  line-height: var(--line-height-base);
+  color: var(--color-text-body);
+  background-color: var(--body-bg);
+  height: 100%;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+
+h1, h2, h3, h4, h5, h6,
+.alpha, .beta, .gamma, .delta, .epsilon, .zeta {
+  font-family: var(--headings-font-family);
+  font-weight: var(--headings-font-weight);
+  line-height: var(--headings-line-height);
+  color: var(--headings-color);
+  text-rendering: optimizeLegibility;
+}
+
+/* a {
+  color: $link-color;
+  text-decoration: none;
+  transition: $text-transition;
+  &:hover,
+  &:focus {
+    color: $link-hover-color;
+    text-decoration: none;
+  }
+
+  &:focus {
+    @include tab-focus();
+  }
+}
+
+figure {
+  margin: 0;
+}
+
+hr {
+  margin-top:    $line-height-computed;
+  margin-bottom: $line-height-computed;
+  border: 0;
+  border-top: 1px solid $hr-border;
+} */

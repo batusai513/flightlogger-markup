@@ -1,0 +1,36 @@
+:root {
+  /* Colors */
+  --bali-hai: #8B9CAD;
+  --turqoise: #50E3C2;
+  --viking: #50D1E3;
+  --chetwoede-blue: #8384E3;
+  --jordy-blue: #83B8E3;
+  --bright-ube: #CA92FC;
+  --dull-lavander: #AC92FC;
+  --dark-electric-blue: #586776;
+  --athens-gray: #E9F0F6;
+
+  --body-bg: #FFF;
+  --color-text-body: var(--dark-electric-blue);
+  --main-color: red;
+
+  --first-gradient: linear-gradient(to right, var(--viking), var(--turqoise));
+  --second-gradient: linear-gradient(to right, var(--chetwoede-blue), var(--jordy-blue));
+  --third-gradient: linear-gradient(to right, var(--bright-ube), var(--dull-lavander));
+
+  --font-family-sans-serif: "san francisco", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+  --font-size-base: 18px;
+  --font-family-base: var(--font-family-sans-serif);
+  --font-weight-base: 300;
+  --line-height-base: 1.5;
+
+  --headings-font-family: var(--font-family-sans-serif);
+  --headings-font-weight: --font-weight-base;
+  --headings-line-height: 1.1;
+  --headings-color: black;
+
+  --dir: 'ltr';
+  --start: left;
+  --end: right;
+}
