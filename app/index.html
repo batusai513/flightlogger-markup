@@ -23,7 +23,7 @@
     <div class="container">
       <div class="columns">
         <div class="column">
-          <img src="images/logo-main.svg" alt="Main Logo">
+          <img class="mail-logo" src="images/logo-main.svg" alt="Main Logo">
         </div>
         <div class="column main-navigation__container">
           <nav class="main-navigation main-navigation--rotate">
@@ -36,6 +36,7 @@
     </div>
   </header>
 
+
   <div class="hero columns align-items--center">
     <div class="column is-5 hero__title-column">
       <div class="main-title__container">
@@ -43,135 +44,154 @@
           Real-time flight tracking for
           <span>worry-free travels</span>
         </h1>
-        <img src="images/appstore.svg" alt="app store">
-        <img src="images/google-play.svg" alt="play store" height="45">
+        <div class="main-title__buttons">
+          <a class="main-title__link" href="#">
+            <img src="images/appstore.svg" alt="app store">
+          </a>
+          <a class="main-title__link" href="#">
+            <img src="images/google-play.svg" alt="play store" height="45">
+          </a>
+        </div>
       </div>
     </div>
     <div class="column is-7 hero__video-column">
-      <div class="ratio__container">
-        <video class="ratio" autoplay="autoplay" poster="images/video.jpg" title="video">
-          <source src="videos/video.m4v" type="video/mp4" />
-          <source src="videos/video.webm" type="video/webm" />
-          <source src="videos/video.ogv" type="video/ogg" />
-        </video>
-      </div>
+      <div class="phone-hand"></div>
     </div>
   </div>
 
-  <section class="feature columns">
-    <div class="column">
-      <div class="half-container half-container--first-gradient half-container--to-right">
-        <div class="phone">
-          <div class="phone-screen phone-screen--map phone__screen"></div>
+  <div class="section-wrapper">
+    <section class="pane feature columns">
+      <div class="column">
+        <div class="half-container half-container--first-gradient half-container--to-right">
+          <div class="phone">
+            <div class="phone__message phone-message phone-message--map-top"></div>
+            <div class="phone__message phone-message phone-message--map-bottom"></div>
+            <div class="phone-screen phone-screen--map phone__screen"></div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="column">
-      <div>
-        <svg class="icon icon-plane">
-          <use xlink:href="#icon-plane"></use>
-        </svg>
-        <h2>Take the guesswork
-          <br> out of travel</h2>
-        <ul>
-          <li>
-            <svg class="icon icon-glass">
-              <use xlink:href="#icon-glass"></use>
-            </svg>
-            Search and save your upcoming flights
-          </li>
-          <li>
-            <svg class="icon icon-open">
-              <use xlink:href="#icon-open"></use>
-            </svg>
-            Get up to the minute details of any delays or changes.
-          </li>
-          <li>
-            <svg class="icon icon-happy">
-              <use xlink:href="#icon-happy"></use>
-            </svg>
-            Arrange timely airport pickups
-          </li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <section class="feature columns">
-    <div class="column">
-      <div>
-        <svg class="icon icon-plane">
-          <use xlink:href="#icon-plane"></use>
-        </svg>
-        <h2>Tracking a loved one’s itinerary?</h2>
-        <p>Going on vacation or traveling for work? Keep your flights organized with our new “Trips” feature columns and say
-          good-bye to clutter.
-        </p>
-      </div>
-    </div>
-    <div class="column">
-      <div class="half-container half-container--second-gradient half-container--to-left">
-        <div class="phone">
-          <div class="phone-screen phone-screen--flights phone__screen"></div>
+      <div class="column">
+        <div class="section-aside section--right">
+          <svg class="icon icon-plane">
+            <use xlink:href="#icon-plane"></use>
+          </svg>
+          <h2 class="section-aside__title">Take the guesswork
+            <br> out of travel</h2>
+          <ul class="section-aside__list">
+            <li class="section-aside__item">
+              <svg class="icon icon-glass">
+                <use xlink:href="#icon-glass"></use>
+              </svg>
+              <p>Search and save your upcoming flights</p>
+            </li>
+            <li class="section-aside__item">
+              <svg class="icon icon-open">
+                <use xlink:href="#icon-open"></use>
+              </svg>
+              <p>Get up to the minute details of any delays or changes.</p>
+            </li>
+            <li class="section-aside__item">
+              <svg class="icon icon-happy">
+                <use xlink:href="#icon-happy"></use>
+              </svg>
+              <p>Arrange timely airport pickups</p>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="feature columns">
+    <section class="pane feature columns">
+      <div class="column">
+        <div class="section-aside section--left">
+          <svg class="icon icon-plane">
+            <use xlink:href="#icon-plane"></use>
+          </svg>
+          <h2 class="section-aside__title">Tracking a loved <br> one’s itinerary?</h2>
+          <p class="section-aside__description">Going on vacation or traveling for work? Keep your <br> flights organized with our new “Trips” feature columns and say <br>
+            good-bye to clutter.
+          </p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="half-container half-container--second-gradient half-container--to-left">
+          <div class="phone">
+            <div class="phone__message phone-message phone-message--flights"></div>
+            <div class="phone-screen phone-screen--flights phone__screen"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pane feature columns">
     <div class="column">
       <div class="half-container half-container--third-gradient half-container--to-right">
         <div class="phone">
+          <div class="phone__message phone-message phone-message--mail"></div>
           <div class="phone-screen phone-screen--mail phone__screen"></div>
         </div>
       </div>
     </div>
     <div class="column">
-      <div>
+      <div class="section-aside section--right">
         <svg class="icon icon-plane">
           <use xlink:href="#icon-plane"></use>
         </svg>
-        <h2>No need to manually add your upcoming flights!</h2>
-        <p>Just forward your flight confirmation email to flighlogger and we will automatically add it to your itinerary.</p>
+        <h2 class="section-aside__title">No need to manually add <br> your upcoming flights!</h2>
+        <p class="section-aside__description">Just forward your flight confirmation email to <br> flighlogger and we will automatically add it to your <br> itinerary.</p>
       </div>
     </div>
   </section>
+  </div>
 
-  <section class="pane pane--athens-gray text-center">
-    <h2>On Your Wrist. Wherever You Go.</h2>
-    <p>Add your flights on your iPhone and your flight information will be
-      <br> automatically synced on your iPad and Apple Watch.</p>
-    <div class="columns">
-      <div class="column text-center">
-        <div class="iwatch">
-          <div class="iwatch-screen iwatch-screen--bg1 iwatch__content"></div>
-        </div>
+<section class="pane pane--athens-gray text-center">
+  <h2>On Your Wrist. Wherever You Go.</h2>
+  <p>Add your flights on your iPhone and your flight information will be
+    <br> automatically synced on your iPad and Apple Watch.</p>
+  <div class="columns">
+    <div class="column text-center">
+      <div class="iwatch">
+        <div class="iwatch-screen iwatch-screen--bg1 iwatch__content"></div>
       </div>
-      <div class="column text-center">
-        <div class="iwatch">
-          <div class="iwatch-screen iwatch-screen--bg2 iwatch__content"></div>
-        </div>
-      </div>
-      <div class="column text-center">
-        <div class="iwatch">
-          <div class="iwatch-screen iwatch-screen--bg3 iwatch__content"></div>
-        </div>
-      </div>
+      <p>Track Flights</p>
     </div>
-  </section>
-
+    <div class="column text-center">
+      <div class="iwatch">
+        <div class="iwatch-screen iwatch-screen--bg2 iwatch__content"></div>
+      </div>
+      <p>Notifications</p>
+    </div>
+    <div class="column text-center">
+      <div class="iwatch">
+        <div class="iwatch-screen iwatch-screen--bg3 iwatch__content"></div>
+      </div>
+      <p>Track Flights</p>
+    </div>
+  </div>
+</section>
   <section class="pane text-center">
     <div class="container">
-      <svg viewBox="0 0 75 75" height="75">
-        <use xlink:href="#logo-simple"></use>
-      </svg>
-      <h2>FlightLogger is simple and clutter free</h2>
+      <div class="section-text-logo">
+        <svg viewBox="0 0 75 75" height="75">
+          <use xlink:href="#logo-simple"></use>
+        </svg>
+        <h2>FlightLogger is simple and clutter free</h2>
+        <div class="main-title__buttons">
+          <a class="main-title__link" href="#">
+            <img src="images/appstore.svg" alt="app store">
+          </a>
+          <a class="main-title__link" href="#">
+            <img src="images/google-play.svg" alt="play store" height="45">
+          </a>
+        </div>
+      </div>
     </div>
   </section>
 
   <footer class="text-center">
     <div class="container">
-      <p>© 2017 Flight Logger. All Rights Reserved - A Koombea Product. | Privacy | Terms & Conditions</p>
+      <div class="footer">
+        <p class="footer__text">© 2017 Flight Logger. All Rights Reserved - A Koombea Product. | <a href="#">Privacy</a> | <a href="#">Terms & Conditions</a></p>
+      </div>
     </div>
   </footer>
   <svg style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg"

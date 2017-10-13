@@ -1,0 +1,41 @@
+.section-aside {
+  &__title {
+    font-size: rem(35);
+  }
+
+  &__description {
+    font-size: rem(18);
+    line-height: 2;
+  }
+
+  &__list {
+    padding: 0;
+  }
+
+  &__item {
+    list-style: none;
+    margin-bottom: 20px;
+
+    .icon {
+      margin-right: 13px;
+      float: left;
+    }
+  }
+}
+
+.section {
+  &--right,
+  &--left {    
+    padding: 9%;
+  }
+
+  @media screen and (min-width: 769px) {
+    &--right {    
+      padding-left: 10%
+    }
+
+    &--left {
+      padding-left: 20%
+    }
+  }
+}

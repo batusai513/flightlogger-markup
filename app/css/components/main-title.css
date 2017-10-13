@@ -4,19 +4,39 @@
   white-space: nowrap;
   position: relative;
   z-index: 2;
+  font-weight: 200;
+  margin-bottom: 20px;
   span {
     font-size: rem(36px);
     display: block;
   }
   &__container {
-    padding-right: 10px;
-    padding-left: 10px;
+    padding: 0 5%;
+    @media screen and (min-width: 769px){
+      padding: 0 10px 0 13%;
+    }
   }
+  &__link {
+    text-decoration: none;
+    margin-right: 5px;
+  }
+
   @media screen and (min-width: 769px){
     font-size: rem(43px);
+    margin-bottom: 100px;
+    font-weight: 400;
     span {
       font-size: rem(88px);
       display: block;
     }
+  }
+}
+
+.main-title__container
+.main-title__buttons {
+  position: absolute;
+  bottom: 0;
+  @media screen and (min-width: 769px){
+      position: relative;
   }
 }

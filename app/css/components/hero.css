@@ -1,9 +1,19 @@
 .hero {
-  margin-bottom: 40px;
-  &__title-column{
-    width: 33.33333%
+  margin-bottom: 120px;
+
+  &__title-column,
+  &__video-column {
+    width: 100%;
   }
-  &__video-column{
-    width: 66.66667%
+
+  @media screen and (min-width: 769px) {
+    margin-bottom: 40px;
+
+    &__title-column {
+      width: 33.33333%;
+    }
+    &__video-column {
+      width: 66.66667%;
+    }
   }
 }

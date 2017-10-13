@@ -4,7 +4,7 @@
     font-weight: 400;
     text-decoration: none;
     padding-right: 40px;
-    font-size: rem(16);
+    font-size: rem(14);
     &:last-child {
       padding-right: 0;
     }
@@ -20,11 +20,12 @@
     @media screen and (min-width: 769px) {
       position: fixed;
       display: inline-flex;
-      right: 20px;
+      right: 35px;
       top: 15px;
       flex-direction: row-reverse;
       transform: rotateZ(-90deg);
       transform-origin: 100%;
+      z-index: 90;
       .main-navigation__item {
         transform: rotateZ(180deg);
       }

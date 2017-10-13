@@ -5,6 +5,7 @@
 @import "./core/icons.css";
 
 @import "./components/container.css";
+@import "./components/asides.css";
 @import "./components/main-header.css";
 @import "./components/main-navigation.css";
 @import "./components/columns.css";
@@ -14,6 +15,8 @@
 @import "./components/hero.css";
 @import "./components/pane.css";
 @import "./components/phone.css";
+@import "./components/footer.css";
 @import "./components/iwatch.css";
+@import "./components/parallax.css";
 
 @import "./helpers/text-helpers.css";

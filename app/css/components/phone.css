@@ -3,19 +3,63 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  position: relative;
-  width: 53.3333333333%;
-  height: 109.4801223253%;
+  position: absolute;
+  width: 92%;
+  height: 155.4801223253%;
+  margin: 0 auto;
+
   @media screen and (min-width: 600px) {
-    width: 320px;
-    height: 656.880733952px;
+    width: 75.333333%;
+    height: 109.4801223253%;
+    position: relative;
+    height: 677.880734px;
+    margin: 0;
   }
+
   &__screen {
     position: absolute;
     top: 12.4%;
     left: 7.5688073394%;
     right: 7.5688073394%;
     bottom: 14.0782122905%;
+  }
+  &__message {
+    position: relative;
+    z-index: 30;
+  }
+  &-message {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    &--map-top {
+      background-image: url('../images/phone_pop_01.png');
+      height: 20%;
+      width: 115%;
+      top: 15%;
+      right: -4%;
+    }
+    &--map-bottom {
+      background-image: url('../images/phone_pop_02.png');
+      height: 30%;
+      width: 114%;
+      top: 35%;
+      right: -6%;
+    }
+
+    &--flights {
+      background-image: url('../images/phone_pop_03.png');
+      height: 45%;
+      width: 112%;
+      right: 15%;
+      top: 28%;
+    }
+    
+    &--mail {
+      background-image: url('../images/phone_pop_04.png');
+      height: 29%;
+      width: 122%;
+      top: 37%;
+    }
   }
   &-screen {
     background-repeat: no-repeat;
@@ -33,6 +77,23 @@
   }
 }
 
+.phone-hand {
+  background-image: url('../images/phone-hands-on.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  margin-left: 15px;
+  padding-bottom: 332px;
+  float: inherit;
+  position: relative;
+
+  @media screen and (min-width: 769px){
+    width: 694px;
+    padding-bottom: 547px;
+    float: right;
+  }
+}
 /*
   ratio: 895 / 436 = 2.0527522936
  */
