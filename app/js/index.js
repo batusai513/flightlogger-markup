@@ -10,6 +10,12 @@ import smoothScroll from "smooth-scroll";
 // import gumshoe from "gumshoe";
 // import MapFactory from './map';
 
+var rellax = new Rellax('.js-rellax', {
+  center: true
+});
+
+
+
 smoothScroll.init({
   speed: 1000
 });

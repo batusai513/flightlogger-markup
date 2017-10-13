@@ -40,11 +40,11 @@
   <div class="hero columns align-items--center">
     <div class="column is-5 hero__title-column">
       <div class="main-title__container">
-        <h1 class="main-title">
+        <h1 class="main-title js-rellax" data-rellax-speed="1">
           Real-time flight tracking for
           <span>worry-free travels</span>
         </h1>
-        <div class="main-title__buttons">
+        <div class="main-title__buttons js-rellax" data-rellax-speed="2">
           <a class="main-title__link" href="#">
             <img src="images/appstore.svg" alt="app store">
           </a>
@@ -55,7 +55,7 @@
       </div>
     </div>
     <div class="column is-7 hero__video-column">
-      <div class="phone-hand"></div>
+      <div class="phone-hand js-rellax" data-rellax-speed="2"></div>
     </div>
   </div>
 
@@ -64,8 +64,8 @@
       <div class="column">
         <div class="half-container half-container--first-gradient half-container--to-right">
           <div class="phone">
-            <div class="phone__message phone-message phone-message--map-top"></div>
-            <div class="phone__message phone-message phone-message--map-bottom"></div>
+            <div class="phone__message phone-message phone-message--map-top js-rellax" data-rellax-speed="1"></div>
+            <div class="phone__message phone-message phone-message--map-bottom js-rellax" data-rellax-speed="2"></div>
             <div class="phone-screen phone-screen--map phone__screen"></div>
           </div>
         </div>
@@ -102,13 +102,13 @@
     </section>
 
     <section class="pane feature columns">
-      <div class="column">
+      <div class="column reverse">
         <div class="section-aside section--left">
           <svg class="icon icon-plane">
             <use xlink:href="#icon-plane"></use>
           </svg>
           <h2 class="section-aside__title">Tracking a loved <br> one’s itinerary?</h2>
-          <p class="section-aside__description">Going on vacation or traveling for work? Keep your <br> flights organized with our new “Trips” feature columns and say <br>
+          <p class="section-aside__description">Going on vacation or traveling for work? Keep your flights organized with our new “Trips” feature columns and say <br>
             good-bye to clutter.
           </p>
         </div>
@@ -116,7 +116,7 @@
       <div class="column">
         <div class="half-container half-container--second-gradient half-container--to-left">
           <div class="phone">
-            <div class="phone__message phone-message phone-message--flights"></div>
+            <div class="phone__message phone-message phone-message--flights js-rellax" data-rellax-speed="1"></div>
             <div class="phone-screen phone-screen--flights phone__screen"></div>
           </div>
         </div>
@@ -126,7 +126,7 @@
     <div class="column">
       <div class="half-container half-container--third-gradient half-container--to-right">
         <div class="phone">
-          <div class="phone__message phone-message phone-message--mail"></div>
+          <div class="phone__message phone-message phone-message--mail js-rellax" data-rellax-speed="1"></div>
           <div class="phone-screen phone-screen--mail phone__screen"></div>
         </div>
       </div>
@@ -136,8 +136,8 @@
         <svg class="icon icon-plane">
           <use xlink:href="#icon-plane"></use>
         </svg>
-        <h2 class="section-aside__title">No need to manually add <br> your upcoming flights!</h2>
-        <p class="section-aside__description">Just forward your flight confirmation email to <br> flighlogger and we will automatically add it to your <br> itinerary.</p>
+        <h2 class="section-aside__title">No need to manually add your upcoming flights!</h2>
+        <p class="section-aside__description">Just forward your flight confirmation email to flighlogger and we will automatically add it to your itinerary.</p>
       </div>
     </div>
   </section>
@@ -166,6 +166,7 @@
       </div>
       <p>Track Flights</p>
     </div>
+
   </div>
 </section>
   <section class="pane text-center">

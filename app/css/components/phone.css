@@ -35,15 +35,15 @@
       background-image: url('../images/phone_pop_01.png');
       height: 20%;
       width: 115%;
-      top: 15%;
+      top: 38%;
       right: -4%;
     }
     &--map-bottom {
       background-image: url('../images/phone_pop_02.png');
       height: 30%;
       width: 114%;
-      top: 35%;
-      right: -6%;
+      top: 77%;
+      right: -4%;
     }
 
     &--flights {
@@ -51,14 +51,14 @@
       height: 45%;
       width: 112%;
       right: 15%;
-      top: 28%;
+      top: 39%;
     }
     
     &--mail {
       background-image: url('../images/phone_pop_04.png');
       height: 29%;
       width: 122%;
-      top: 37%;
+      top: 79%;
     }
   }
   &-screen {

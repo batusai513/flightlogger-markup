@@ -1,11 +1,18 @@
 .section-aside {
+  margin-top: 50px;
   &__title {
-    font-size: rem(35);
+    font-size: rem(19);
+    @media screen and (min-width: 769px) {
+      font-size: rem(35);
+    }
   }
 
   &__description {
-    font-size: rem(18);
+    font-size: rem(14);
     line-height: 2;
+    @media screen and (min-width: 769px) {
+      font-size: rem(18);
+    }
   }
 
   &__list {
@@ -14,7 +21,12 @@
 
   &__item {
     list-style: none;
+    font-size: rem(14);
     margin-bottom: 20px;
+
+    @media screen and (min-width: 769px) {
+      font-size: rem(18);
+    }
 
     .icon {
       margin-right: 13px;

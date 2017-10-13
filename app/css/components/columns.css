@@ -28,3 +28,9 @@
 .align-items--center {
   align-items: center;
 }
+
+.column--reverse {
+  @media screen and (min-width: 769px) {
+    display: table-footer-group;
+  }
+}

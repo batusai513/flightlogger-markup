@@ -1,6 +1,4 @@
 .hero {
-  margin-bottom: 120px;
-
   &__title-column,
   &__video-column {
     width: 100%;

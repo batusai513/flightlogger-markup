@@ -1,7 +1,20 @@
 .pane {
-  padding-top: 90px;
-  padding-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+
   &--athens-gray {
     background-color: var(--athens-gray);
+  }
+
+  @media screen and (min-width: 769px) {
+    padding-top: 90px;
+    padding-bottom: 60px;
+  }
+  @media screen and (max-width: 769px) {
+    display: table;
+
+    .reverse {
+      display:table-footer-group;
+    }
   }
 }
